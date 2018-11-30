@@ -1,23 +1,23 @@
 <?php
 /*
 Plugin Name: WP general purpose shortcodes
-Plugin URI:   https://developer.wordpress.org/plugins/wp-general-purpose-shortcodes/
-Description:  General purpose shortcodes for WordPress
-Version:      0.2.0
+Plugin URI:   https://github.com/ivansainz/wp-general-purpose-shortcodes/
+Description:  General purpose shortcodes for WordPress sites
+Version:      0.2.1
 Author:       Iván Sainz (Ahead Labs)
 Author URI:   https://ivansainz.es/
-License:      GPL-2.0
-License URI:  https://github.com/ivansainz/wp-general-purpose-shortcodes/blob/master/LICENSE
+License:      GPL2
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 /**
  * Shortcode functions
  */
-function ahlCurrentYear() {
+function ahl_current_year() {
     return date('Y');
 }
 
-function ahlYearsFromDate($atts) {
+function ahl_years_from_date($atts) {
     $date1 = date_create($atts["date"]);
     $date2 = date_create();
 
@@ -30,12 +30,12 @@ function ahlYearsFromDate($atts) {
  */
 
 // adds the shortcode functions one by one
-function ahlShortcodesInit(){
-    add_shortcode('ahl_year', 'ahlCurrentYear');
-    add_shortcode('ahl_yearsFromDate', 'ahlYearsFromDate');
+function ahl_shortcodes_init(){
+    add_shortcode('ahl_year', 'ahl_current_year');
+    add_shortcode('ahl_yearsFromDate', 'ahl_years_from_date');
 }
 
 // adds all shortcodes
-add_action('init', 'ahlShortcodesInit');
+add_action('init', 'ahl_shortcodes_init');
 
 ?>
