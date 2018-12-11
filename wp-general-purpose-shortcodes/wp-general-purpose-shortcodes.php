@@ -38,4 +38,4 @@ function ahl_shortcodes_init(){
 // adds all shortcodes
 add_action('init', 'ahl_shortcodes_init');
 
-?>
+
