@@ -3,7 +3,7 @@ Contributors: aheadlabs
 Donate link: https://paypal.me/aheadlabs
 Tags: shortcode, date
 Requires at least: 4.6
-Tested up to: 5.4
+Tested up to: 5.7
 Stable tag: trunk
 Requires PHP: 5.2.4
 License: GPLv2 or later
