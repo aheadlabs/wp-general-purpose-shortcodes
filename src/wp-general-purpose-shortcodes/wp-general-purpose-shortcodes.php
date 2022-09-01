@@ -3,7 +3,7 @@
 Plugin Name: WP general purpose shortcodes
 Plugin URI:   https://github.com/ivansainz/wp-general-purpose-shortcodes/
 Description:  General purpose shortcodes for WordPress sites
-Version:      0.2.2
+Version:      0.2.3
 Author:       Iván Sainz (Ahead Labs)
 Author URI:   https://ivansainz.es/
 License:      GPL2
