@@ -3,7 +3,7 @@ Contributors: aheadlabs
 Donate link: https://paypal.me/aheadlabs
 Tags: shortcode, date
 Requires at least: 4.6
-Tested up to: 6.0.2
+Tested up to: 6.3
 Stable tag: trunk
 Requires PHP: 5.2.4
 License: GPLv2 or later
@@ -33,6 +33,9 @@ E.g.: You write ``[ahl_yearsFromDate date="2003-01-01"]`` and you get something 
 Please, send me any questions you have so I can answer them.
 
 == Changelog ==
+
+= 0.2.4 =
+* Updated version compatibility
 
 = 0.2.0 =
 * Added the shortcode: [ahl_yearsFromDate]

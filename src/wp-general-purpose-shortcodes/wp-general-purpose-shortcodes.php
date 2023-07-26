@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: WP general purpose shortcodes
-Plugin URI:   https://github.com/ivansainz/wp-general-purpose-shortcodes/
+Plugin Name:  WP general purpose shortcodes
+Plugin URI:   https://github.com/aheadlabs/wp-general-purpose-shortcodes/
 Description:  General purpose shortcodes for WordPress sites
-Version:      0.2.3
+Version:      0.2.4
 Author:       Iván Sainz (Ahead Labs)
 Author URI:   https://ivansainz.es/
 License:      GPL2
